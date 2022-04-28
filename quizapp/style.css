@@ -1,0 +1,53 @@
+.header{
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    padding: 1 0 1 0;
+    height: 45px;
+}
+
+#ab{
+    float: right;
+    box-sizing: border-box;
+    color: black;
+    text-align: right;
+}
+
+.bodyi{
+                margin: 25px 50px 75px;
+                padding:4px;
+                background-color: grey;
+                width: 500px;
+                height: 500px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+                color: black;
+}
+
+.bodyii{
+                margin: 25px 50px 75px;
+                padding:4px;
+                background-color: grey;
+                width: 500px;
+                height: 500px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+                color: black;
+
+}
+
+.h2i{
+    text-align: center;
+    color: black;
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1 0 1 0;
+    color: black;
+}
