@@ -7,11 +7,11 @@ function onSubmitk(){
         
        
         var radiobt = document.getElementsByTagName('input');
-        var rdvalues;
+        var rdval;
      for (var i = 0; i < radiobt.length; i++) {
     if (radiobt[i].type === 'radio' && radiobt[i].checked) {
-        rdvalues = radiobt[i].rdvalues
-        userarray.push(rdvalues);
+        rdval = radiobt[i].rdval;
+        userarray.push(rdval);
         console.log(userarray);
   }
 }
