@@ -23,16 +23,13 @@ for(var i = 0; i < correctscore.length; i++){
              
         }
     }
+        
+        var results = document.getElementById("#results");
+        
     
-    document.forms["forma"].action = "resultpage.html";
-    document.forms["forma"].submit();
-    alert("You scored: " + storematch.length + "/" + noofquiz);
-    //document.forms["forma"].action = "resultpage.html";
-    //document.forms["forma"].submit();   
-    //alert("job done " + storematch.length + "/" + noofquiz);
-    //console.log(storematch.length);
-    //document.getElementById("results").innerHTML="job done " + storematch.length + "/" + noofquiz;
-    //alert("job done " + storematch.length + "/" + noofquiz); 
+        document.forms["forma"].action = "resultpage.html";
+        document.forms["forma"].submit();
+        alert("You scored: " + storematch.length + "/" + noofquiz);
 }
 
 }
